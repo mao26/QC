@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginScreenController.swift"
+            timestampString = "490829107.318117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "animateRunningCartInLoginScreen()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuikCart.LoginScreenController.(animateRunningCartInLoginScreen (QuikCart.LoginScreenController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "QuikCart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario_oliver93/Documents/XCode%20Apps/QuikCart/LoginScreenController.swift"
+                  timestampString = "492000777.817001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuikCart.LoginScreenController.(animateRunningCartInLoginScreen (QuikCart.LoginScreenController) -&gt; () -&gt; ()).(closure #2)"
+                  moduleName = "QuikCart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario_oliver93/Documents/XCode%20Apps/QuikCart/LoginScreenController.swift"
+                  timestampString = "492000777.817185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

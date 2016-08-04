@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00175B01D411E5700BD4692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175AF1D411E5700BD4692 /* AppDelegate.swift */; };
+		A00175B51D411E5700BD4692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00175B31D411E5700BD4692 /* Main.storyboard */; };
+		A00175B71D411E5700BD4692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00175B61D411E5700BD4692 /* Assets.xcassets */; };
+		A00175BA1D411E5700BD4692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00175B81D411E5700BD4692 /* LaunchScreen.storyboard */; };
+		A00175C51D411E5700BD4692 /* QuikCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175C41D411E5700BD4692 /* QuikCartTests.swift */; };
+		A00175D01D411E5700BD4692 /* QuikCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175CF1D411E5700BD4692 /* QuikCartUITests.swift */; };
+		A00175DE1D411F5900BD4692 /* logo_qc.png in Resources */ = {isa = PBXBuildFile; fileRef = A00175DD1D411F5900BD4692 /* logo_qc.png */; };
+		A00175E01D4126CF00BD4692 /* app_button_qc.png in Resources */ = {isa = PBXBuildFile; fileRef = A00175DF1D4126CF00BD4692 /* app_button_qc.png */; };
+		A00175E41D41284900BD4692 /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175E31D41284900BD4692 /* LoginScreenController.swift */; };
+		A00175E61D4137F600BD4692 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175E51D4137F600BD4692 /* LobbyViewController.swift */; };
+		A00175E81D41380000BD4692 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175E71D41380000BD4692 /* SignUpViewController.swift */; };
+		A00175EC1D417C4E00BD4692 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00175EB1D417C4E00BD4692 /* StoreViewController.swift */; };
+		A058DBA81D4D19B9000CD3DA /* MapNumRep.txt in Resources */ = {isa = PBXBuildFile; fileRef = A058DBA71D4D19B9000CD3DA /* MapNumRep.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00175C11D411E5700BD4692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00175A41D411E5700BD4692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00175AB1D411E5700BD4692;
+			remoteInfo = QuikCart;
+		};
+		A00175CC1D411E5700BD4692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00175A41D411E5700BD4692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00175AB1D411E5700BD4692;
+			remoteInfo = QuikCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00175AC1D411E5700BD4692 /* QuikCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00175AF1D411E5700BD4692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00175B41D411E5700BD4692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00175B61D411E5700BD4692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00175B91D411E5700BD4692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00175BB1D411E5700BD4692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00175C01D411E5700BD4692 /* QuikCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuikCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00175C41D411E5700BD4692 /* QuikCartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuikCartTests.swift; sourceTree = "<group>"; };
+		A00175C61D411E5700BD4692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00175CB1D411E5700BD4692 /* QuikCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuikCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00175CF1D411E5700BD4692 /* QuikCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuikCartUITests.swift; sourceTree = "<group>"; };
+		A00175D11D411E5700BD4692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00175DD1D411F5900BD4692 /* logo_qc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_qc.png; path = ../../../../Desktop/logo_qc.png; sourceTree = "<group>"; };
+		A00175DF1D4126CF00BD4692 /* app_button_qc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_button_qc.png; path = ../../../../Desktop/app_button_qc.png; sourceTree = "<group>"; };
+		A00175E31D41284900BD4692 /* LoginScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreenController.swift; path = ../LoginScreenController.swift; sourceTree = "<group>"; };
+		A00175E51D4137F600BD4692 /* LobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		A00175E71D41380000BD4692 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A00175EB1D417C4E00BD4692 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		A058DBA71D4D19B9000CD3DA /* MapNumRep.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MapNumRep.txt; path = ../../../../Desktop/MapNumRep.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00175A91D411E5700BD4692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175BD1D411E5700BD4692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175C81D411E5700BD4692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00175A31D411E5700BD4692 = {
+			isa = PBXGroup;
+			children = (
+				A00175AE1D411E5700BD4692 /* QuikCart */,
+				A00175C31D411E5700BD4692 /* QuikCartTests */,
+				A00175CE1D411E5700BD4692 /* QuikCartUITests */,
+				A00175AD1D411E5700BD4692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00175AD1D411E5700BD4692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00175AC1D411E5700BD4692 /* QuikCart.app */,
+				A00175C01D411E5700BD4692 /* QuikCartTests.xctest */,
+				A00175CB1D411E5700BD4692 /* QuikCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00175AE1D411E5700BD4692 /* QuikCart */ = {
+			isa = PBXGroup;
+			children = (
+				A00175E31D41284900BD4692 /* LoginScreenController.swift */,
+				A00175AF1D411E5700BD4692 /* AppDelegate.swift */,
+				A00175B31D411E5700BD4692 /* Main.storyboard */,
+				A00175EB1D417C4E00BD4692 /* StoreViewController.swift */,
+				A00175E51D4137F600BD4692 /* LobbyViewController.swift */,
+				A00175E71D41380000BD4692 /* SignUpViewController.swift */,
+				A00175B61D411E5700BD4692 /* Assets.xcassets */,
+				A00175B81D411E5700BD4692 /* LaunchScreen.storyboard */,
+				A058DBA71D4D19B9000CD3DA /* MapNumRep.txt */,
+				A00175BB1D411E5700BD4692 /* Info.plist */,
+				A00175DD1D411F5900BD4692 /* logo_qc.png */,
+				A00175DF1D4126CF00BD4692 /* app_button_qc.png */,
+			);
+			path = QuikCart;
+			sourceTree = "<group>";
+		};
+		A00175C31D411E5700BD4692 /* QuikCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00175C41D411E5700BD4692 /* QuikCartTests.swift */,
+				A00175C61D411E5700BD4692 /* Info.plist */,
+			);
+			path = QuikCartTests;
+			sourceTree = "<group>";
+		};
+		A00175CE1D411E5700BD4692 /* QuikCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00175CF1D411E5700BD4692 /* QuikCartUITests.swift */,
+				A00175D11D411E5700BD4692 /* Info.plist */,
+			);
+			path = QuikCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00175AB1D411E5700BD4692 /* QuikCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00175D41D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCart" */;
+			buildPhases = (
+				A00175A81D411E5700BD4692 /* Sources */,
+				A00175A91D411E5700BD4692 /* Frameworks */,
+				A00175AA1D411E5700BD4692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuikCart;
+			productName = QuikCart;
+			productReference = A00175AC1D411E5700BD4692 /* QuikCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00175BF1D411E5700BD4692 /* QuikCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00175D71D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCartTests" */;
+			buildPhases = (
+				A00175BC1D411E5700BD4692 /* Sources */,
+				A00175BD1D411E5700BD4692 /* Frameworks */,
+				A00175BE1D411E5700BD4692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00175C21D411E5700BD4692 /* PBXTargetDependency */,
+			);
+			name = QuikCartTests;
+			productName = QuikCartTests;
+			productReference = A00175C01D411E5700BD4692 /* QuikCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00175CA1D411E5700BD4692 /* QuikCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00175DA1D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCartUITests" */;
+			buildPhases = (
+				A00175C71D411E5700BD4692 /* Sources */,
+				A00175C81D411E5700BD4692 /* Frameworks */,
+				A00175C91D411E5700BD4692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00175CD1D411E5700BD4692 /* PBXTargetDependency */,
+			);
+			name = QuikCartUITests;
+			productName = QuikCartUITests;
+			productReference = A00175CB1D411E5700BD4692 /* QuikCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00175A41D411E5700BD4692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Oliver Games LLC";
+				TargetAttributes = {
+					A00175AB1D411E5700BD4692 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A00175BF1D411E5700BD4692 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A00175AB1D411E5700BD4692;
+					};
+					A00175CA1D411E5700BD4692 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A00175AB1D411E5700BD4692;
+					};
+				};
+			};
+			buildConfigurationList = A00175A71D411E5700BD4692 /* Build configuration list for PBXProject "QuikCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00175A31D411E5700BD4692;
+			productRefGroup = A00175AD1D411E5700BD4692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00175AB1D411E5700BD4692 /* QuikCart */,
+				A00175BF1D411E5700BD4692 /* QuikCartTests */,
+				A00175CA1D411E5700BD4692 /* QuikCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00175AA1D411E5700BD4692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00175BA1D411E5700BD4692 /* LaunchScreen.storyboard in Resources */,
+				A00175B71D411E5700BD4692 /* Assets.xcassets in Resources */,
+				A058DBA81D4D19B9000CD3DA /* MapNumRep.txt in Resources */,
+				A00175DE1D411F5900BD4692 /* logo_qc.png in Resources */,
+				A00175E01D4126CF00BD4692 /* app_button_qc.png in Resources */,
+				A00175B51D411E5700BD4692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175BE1D411E5700BD4692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175C91D411E5700BD4692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00175A81D411E5700BD4692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00175EC1D417C4E00BD4692 /* StoreViewController.swift in Sources */,
+				A00175E61D4137F600BD4692 /* LobbyViewController.swift in Sources */,
+				A00175B01D411E5700BD4692 /* AppDelegate.swift in Sources */,
+				A00175E81D41380000BD4692 /* SignUpViewController.swift in Sources */,
+				A00175E41D41284900BD4692 /* LoginScreenController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175BC1D411E5700BD4692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00175C51D411E5700BD4692 /* QuikCartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00175C71D411E5700BD4692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00175D01D411E5700BD4692 /* QuikCartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00175C21D411E5700BD4692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00175AB1D411E5700BD4692 /* QuikCart */;
+			targetProxy = A00175C11D411E5700BD4692 /* PBXContainerItemProxy */;
+		};
+		A00175CD1D411E5700BD4692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00175AB1D411E5700BD4692 /* QuikCart */;
+			targetProxy = A00175CC1D411E5700BD4692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00175B31D411E5700BD4692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00175B41D411E5700BD4692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00175B81D411E5700BD4692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00175B91D411E5700BD4692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00175D21D411E5700BD4692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00175D31D411E5700BD4692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00175D51D411E5700BD4692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00175D61D411E5700BD4692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A00175D81D411E5700BD4692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuikCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikCart.app/QuikCart";
+			};
+			name = Debug;
+		};
+		A00175D91D411E5700BD4692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuikCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikCart.app/QuikCart";
+			};
+			name = Release;
+		};
+		A00175DB1D411E5700BD4692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuikCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuikCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A00175DC1D411E5700BD4692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuikCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivergamesllc.QuikCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuikCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00175A71D411E5700BD4692 /* Build configuration list for PBXProject "QuikCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00175D21D411E5700BD4692 /* Debug */,
+				A00175D31D411E5700BD4692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00175D41D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00175D51D411E5700BD4692 /* Debug */,
+				A00175D61D411E5700BD4692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00175D71D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00175D81D411E5700BD4692 /* Debug */,
+				A00175D91D411E5700BD4692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00175DA1D411E5700BD4692 /* Build configuration list for PBXNativeTarget "QuikCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00175DB1D411E5700BD4692 /* Debug */,
+				A00175DC1D411E5700BD4692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00175A41D411E5700BD4692 /* Project object */;
+}
